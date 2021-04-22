@@ -159,10 +159,10 @@ class SIGGRAPHGenerator(BaseColor):
 
         return self.unnormalize_ab(out_reg)
 
-PATH_17 = '/Users/yasserlahlou/DataScience/Github_repos/Colorization-app/models/siggraph17_weights.pth'
+PATH_17 = 'models/siggraph17_weights.pth'
 
 def siggraph17(pretrained=True):
     model = SIGGRAPHGenerator()
     if(pretrained):
-        model.load_state_dict(torch.load(PATH_17))
+        model.load_state_dict(torch.load(PATH_17, map_location='cpu'))
     return model

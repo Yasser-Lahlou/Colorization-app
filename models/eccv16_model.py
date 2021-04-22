@@ -96,10 +96,10 @@ class ECCVGenerator(BaseColor):
 
         return self.unnormalize_ab(self.upsample4(out_reg))
 
-PATH_16 = '/Users/yasserlahlou/DataScience/Github_repos/Colorization-app/models/eccv16_weights.pth'
+PATH_16 = 'models/eccv16_weights.pth'
 
 def eccv16(pretrained=True):
 	model = ECCVGenerator()
 	if(pretrained):
-		model.load_state_dict(torch.load(PATH_16))
+		model.load_state_dict(torch.load(PATH_16, map_location='cpu'))
 	return model
