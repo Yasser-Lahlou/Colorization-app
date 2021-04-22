@@ -6,7 +6,6 @@ import cv2
 from streamlit import caching
 
 from settings import *
-from util import *
 from processing_color import *
 
 # functions

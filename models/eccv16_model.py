@@ -96,7 +96,7 @@ class ECCVGenerator(BaseColor):
 
         return self.unnormalize_ab(self.upsample4(out_reg))
 
-PATH_16 = '/Users/yasserlahlou/code/Yasser-Lahlou/apps/colorization-app/Colorization/models/eccv16_weights.pth'
+PATH_16 = '/Users/yasserlahlou/DataScience/Github_repos/Colorization-app/models/eccv16_weights.pth'
 
 def eccv16(pretrained=True):
 	model = ECCVGenerator()

@@ -159,7 +159,7 @@ class SIGGRAPHGenerator(BaseColor):
 
         return self.unnormalize_ab(out_reg)
 
-PATH_17 = '/Users/yasserlahlou/code/Yasser-Lahlou/apps/colorization-app/Colorization/models/siggraph17_weights.pth'
+PATH_17 = '/Users/yasserlahlou/DataScience/Github_repos/Colorization-app/models/siggraph17_weights.pth'
 
 def siggraph17(pretrained=True):
     model = SIGGRAPHGenerator()
