@@ -1,6 +1,6 @@
 # Colorization app
 
-[Go to Streamlit app](https://share.streamlit.io/yasser-lahlou/colorization-app/main/colorization-app.py)
+[Go to Streamlit app](https://share.streamlit.io/yasser-lahlou/colorization-app/main)
 
 ![](https://github.com/Yasser-Lahlou/Colorization-app/blob/main/Streamlit_colorization_app_screenshot.png)
 
